@@ -1,0 +1,9 @@
+.container {
+    width: 100%;
+    height: 50px;
+}
+
+.logoImg {
+    height: 58px;
+    border-radius: 12px 0 0 12px;
+}

@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.item {
+    border-left-width: 2px;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-style: solid;
+    border-color: rgba(38, 38, 38, 1);
+    padding: 20px 34px;
+}
+
+.container .item:first-child {
+    background: rgba(255, 239, 229, 1);
+}
+
+.container .item:last-child {
+    background: rgba(255, 174, 128, 1);
+    border-radius: 0 12px 12px 0;
+}
