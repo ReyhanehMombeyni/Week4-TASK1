@@ -1,6 +1,6 @@
-import MainNav from "./MainNav/mainNav";
+import MainNav from "../MainNav/mainNav";
 import Styles from "./nav.module.css"
-import TopNav from "./TopNav/topNav";
+import TopNav from "../TopNav/topNav";
 
 const Nav = () => {
     return(

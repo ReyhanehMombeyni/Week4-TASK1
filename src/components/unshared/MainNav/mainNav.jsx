@@ -1,5 +1,5 @@
-import Items from "./Items/items";
-import Logo from "./Logo/logo";
+import Items from "../Items/items";
+import Logo from "../../shared/Logo/logo";
 import Styles from "./mainNav.module.css"
 
 const MainNav = () => {

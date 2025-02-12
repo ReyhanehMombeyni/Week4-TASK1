@@ -19,6 +19,29 @@
 }
 
 .container .item:last-child {
-    background: rgba(255, 174, 128, 1);
     border-radius: 0 12px 12px 0;
+    background: rgba(255, 174, 128, 1);
 }
+
+.iconMenu {
+    display: none;
+    border-left-width: 2px;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-style: solid;
+    border-color: rgba(38, 38, 38, 1);
+    padding: 19px 34px;
+    border-radius: 0 12px 12px 0;
+    background: rgba(255, 239, 229, 1);
+
+}
+
+@media only screen and (max-width: 992px) {
+    .item {
+        display: none;
+    }
+    .iconMenu {
+        display: block;
+    }
+  }

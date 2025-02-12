@@ -1,11 +1,13 @@
 import './App.css'
-import Nav from "./Nav/nav.jsx"
+import Header from './components/unshared/Header/header.jsx';
+import Nav from "./components/unshared/Nav/nav.jsx"
 
 function App() {
 
   return (
     <div className="container">
       <Nav />
+      <Header />
     </div>
   )
 }
