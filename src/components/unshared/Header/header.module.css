@@ -39,4 +39,49 @@
         font-weight: 500;
         font-size: 15px;
     }
+
+    .rate {
+        display: flex;
+        background: rgba(255, 239, 229, 1);
+        border: 2px solid rgba(38, 38, 38, 1);
+        box-shadow: 8px 8px 0px 1px rgba(255, 190, 153, 1);
+        border-radius: 12px;
+        gap: 13px;
+        padding: 24px 50px;
+        .rateItem {
+            text-align: left;
+            span {
+                font-weight: 800;
+                font-size: 30px;
+            }
+            p {
+                font-weight: 500;
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .container {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .rightSide {
+        align-items: center;
+        text-align: center;
+        padding-left: 0px;
+    }
+    .rate {
+        flex-direction: column;
+        padding: 40px;
+        .rateItem {
+            border-bottom: 2px solid rgba(38, 38, 38, 1);
+            padding: 0 30px 20px 30px;
+            text-align: center !important;
+        }
+        .rateItem:last-child {
+            border-bottom: 0;
+        }
+    }
 }
